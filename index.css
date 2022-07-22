@@ -9,7 +9,7 @@
     padding-top: 70px; 
     font-family: MuseoSans-700,sans-serif; 
 }
-p {
+#frist>div>p {
     text-align: center;
     margin-top: 20px;
     font-family: MuseoSans-300,sans-serif;
@@ -41,6 +41,107 @@ p {
     text-align: center;
 
 }
-#fg>div{
-    grid-template-columns:repeat(5,1fr);
+#gride>div{ 
+ display: grid;
+    grid-template-columns: repeat(4,1fr); 
+   
+    justify-content: center;
+}
+#gride>div>div{
+    padding: 10px;
+}
+#secand{
+    
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+}
+#secand>div{
+
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+    font-family: MuseoSans-700,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 10%;
+}
+#secand>div>ul{
+    font-family: MuseoSans-300,sans-serif;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #4b4b4b;
+    font-size: 18px;
+    line-height: 170%;
+}
+.com{
+
+width: 100%;
+height: 20%;
+border-radius: 5px;
+}
+.com+img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 10%;
+    margin-top: -8%;
+    border-radius: 5px;
+}#com{
+    width: 20%;
+    height: 15%;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+#maincom{
+    padding: 40px;
+    background-color: #f8f8f8;
+
+}
+h3+p{
+    font-family: MuseoSans-300,sans-serif;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #4b4b4b;
+    font-size: 18px;
+    line-height: 170%;
+}
+ul+button{
+    padding: 20px 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #f37e5d;
+    background-color: #eebdaf;
+    border: none;border-radius: 3px;
+
 }

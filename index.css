@@ -60,7 +60,7 @@
 #secand>div{
 
     width: 80%;
-    height: 80%;
+
     margin-top: 10%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 5px;
@@ -113,7 +113,7 @@ border-radius: 5px;
     border-radius: 5px;
 }#com{
     width: 20%;
-    height: 15%;
+    
     background-color: white;
     border-radius: 3px;
     
@@ -144,4 +144,75 @@ ul+button{
     background-color: #eebdaf;
     border: none;border-radius: 3px;
 
+}#part3>h2+p{
+    text-align: center;
+}
+#third{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    padding: 50px 50px;
+
+}
+#third>div{
+
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+h4{
+    text-align: center;
+    font-size: 24px; 
+    font-family: MuseoSans-300,sans-serif;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    color: #4b4b4b;
+    
+    line-height: 170%;
+}
+#third>div>p{
+    font-family: MuseoSans-300,sans-serif;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #4b4b4b;
+    font-size: 18px;
+    line-height: 170%;
+
+}
+#third>div>h2{
+    font-family: MuseoSans-700,sans-serif; 
+    text-align: center;
+ font-size: 50px;
+ color: #4b4b4b;
+ margin-top: -5%;
+
+}
+#third>div>img{
+    width: 40%;
+     margin-left: 20%;
+
+}
+#part3>p{
+    font-family: MuseoSans-300,sans-serif;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #4b4b4b;
+    font-size: 18px;
+    line-height: 170%;
 }

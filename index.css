@@ -158,8 +158,11 @@ ul+button{
 #third>div{
 
     width: 90%;
-    height: 90%;
+    height: 85%;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 0px;
+
 }
 h4{
     text-align: center;
@@ -175,6 +178,7 @@ h4{
     color: #4b4b4b;
     
     line-height: 170%;
+    margin-top: 20px;
 }
 #third>div>p{
     font-family: MuseoSans-300,sans-serif;
@@ -215,4 +219,96 @@ h4{
     color: #4b4b4b;
     font-size: 18px;
     line-height: 170%;
+}
+#futer>div{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+#futer>div>div>a{
+    display: block;
+  text-decoration: none;
+  font-size: 14px;
+  
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #4b4b4b;
+  font-family: MuseoSans-700,sans-serif;
+  
+
+}
+#futer>div>div{
+    padding: 20px 10px;
+}
+h5{
+    
+    font-size: 14px; 
+    font-family: MuseoSans-300,sans-serif;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.last{
+    width: 30%;
+    margin: auto;
+    padding: 20px 20px;
+}
+.last>a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 200%;
+
+}
+.last>img{
+    width: 70%;
+    display: block;
+    margin: auto;
+
+}
+#last{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    padding: 20px 20px;
+    
+}
+#last>div{
+    display: flex;
+    width: 30%;
+   
+}
+#last>div>img{
+    width: 80%;
+    height: 80%;
+}
+#count>div{
+    width: 100%;
+    background-color: #f37e5d;
+    padding: 60px 0px;
+}
+#count>div>h3{
+    text-align: center;
+    margin-left: -4%;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+#count>div>button{
+    display: block;
+    margin: auto;
+    padding: 15px 20px;
+    color: #f37e5d;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
 }
